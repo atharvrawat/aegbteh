@@ -1,0 +1,23 @@
+body{
+    background-image: url("background.jpg");
+}
+h3{
+    font-size: 30px !important;
+}
+.btn-success:hover{
+    background-color: yellow;
+    color: black;
+}
+canvas{
+    animation-name: atharv;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes atharv{
+    from{
+        box-shadow: 2px 2px 40px red;
+    }
+    to{
+        box-shadow:2px 2px 40px blue ;
+    }
+}
